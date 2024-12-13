@@ -1,1 +1,4 @@
-apt_src golang-golang-x-term-dev
+pkg=golang-golang-x-term
+version_orig=0.22.0
+version="$version_orig-1"
+git_src -b debian/$version https://salsa.debian.org/go-team/packages/golang-golang-x-term.git
